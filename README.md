@@ -3,12 +3,12 @@
 In this project, I learnt about processing live data streams using Spark’s streaming APIs and Python. I performed a sentiment analysis of real-time tweets. In addition, I also got a basic introduction to Apache Kafka, which is a queuing service for data streams. 
 
 ## Requirements
-    **One of the first requirements is to get access to the streaming data; in this case, real-time tweets. Twitter provides a very 
+**One of the first requirements is to get access to the streaming data; in this case, real-time tweets. Twitter provides a very 
 convenient API to fetch tweets in a streaming manner**
  
-**In addition, I also used Kafka to buffer the tweets before processing. Kafka provides a distributed queuing service which can be used to store the data when the data creation rate is more than processing rate. It also has several other uses. **
+#### In addition, I also used Kafka to buffer the tweets before processing. Kafka provides a distributed queuing service which can be used to store the data when the data creation rate is more than processing rate. It also has several other uses.
 
-## Project Setup 
+# Project Setup 
  
 #### Installing Required Python Libraries 
 I have provided a text file containing the required python packages: `requirements.txt`
