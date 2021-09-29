@@ -6,4 +6,4 @@ sudo /home/kafka/kafka/bin/kafka-server-start.sh /home/kafka/kafka/config/server
 
 /home/kafka/kafka/bin/kafka-console-consumer.sh --bootstrap-server 127.0.0.1:9092 --topic twitter --from-beginning
 
-sudo rm -rf /tmp/broker0 /tmp/zookeeper
+sudo rm -rf /home/kafka/logs/broker0 /tmp/zookeeper
